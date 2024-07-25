@@ -1,19 +1,18 @@
 import React from 'react';
-import Contact from '../Components/Contact';
-import About from '../Components/About';
-import NavBar from '../Components/NavBar';
-import Projects from '../Components/Projects';
-import Work from '../Components/Work';
+import NavBar from './Components/NavBar';
+import Main from './Components/Main';
+import About from './Components/About';
+
+import Contact from './Components/Contact';
 
 function App() {
   return (
-    <>
+    <div>
       <NavBar />
+      <Main />
       <About />
-      <Work />
-      <Projects />
       <Contact />
-    </>
+    </div>
   );
 }
 

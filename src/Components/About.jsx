@@ -6,7 +6,7 @@ const About = () => {
       <h1 className='text-4xl font-bold text-center text-[#001b5e]'>
         About Me
       </h1>
-      <p className='text-center py-8'>
+      <p className='text-center py-20'>
         <strong>
           I have had the opportunity to work in a diverse range of career
           fields: Automotive Mechanics, Construction, the Hollywood Industry,

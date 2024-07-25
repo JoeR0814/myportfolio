@@ -1,29 +1,33 @@
 import React from 'react';
-import Image from '../assets/timmyme.jpg';
-import { FaLinkedinIn, FaGithub } from 'react-icons/fa';
+import Image from '../assets/utah.jpg';
 import { TypeAnimation } from 'react-type-animation';
+import { FaLinkedinIn, FaGithub } from 'react-icons/fa';
 
 function Main() {
   return (
     <div id='main'>
-      <img className='w-full h-screen object-cover' src={Image} alt='my-son' />
-      <div className='w-full h-screen absolute top-2 left-0 z-10 flex flex-col justify-center items-center gap/50'>
-        <div className='max-w-[700px] m-auto h-full w-full flex flex-col justify-center text-white-600 lg:items-start items-center'>
-          <h1 className='sm:text-5xl text-4xl font-bold text-white'>
+      <img
+        className='w-full h-screen object-cover object-left scale-x-[-1]'
+        src={Image}
+        alt='utah'
+      />
+      <div className='w-full h-screen absolute top-0 left-0 bg-black/10'>
+        <div className='max-w-[700px] m-auto h-full w-full flex flex-col justify-center lg:items-start items-center text-black'>
+          <h1 className='sm:text-5xl md:text-7xl font-bold text-white-800 px-4 md:px-12'>
             I'm Joe Reis
           </h1>
-          <h2 className='flex sm:text-4xl text-5xl pt-4 text-white-600 capitalize'>
-            I am a-
+          <h2 className='flex sm:text-3xl text-2xl md:text-5xl font-bold text-black px-4 md:px-12'>
+            I'm A,
             <TypeAnimation
               sequence={[
-                'Lifelong Learner',
-                1000,
-                'Full-Stack Web Developer',
-                1000,
-                'entrepreneur',
-                1000,
+                'Web Developer',
+                2000,
+                'Problem Solver',
+                2000,
+                'Entrepreneur',
+                2000,
                 'Family Man',
-                1000,
+                2000,
               ]}
               wrapper='div'
               cursor={true}
@@ -31,15 +35,19 @@ function Main() {
               style={{
                 fontSize: '1em',
                 paddingLeft: '5px',
-                color: 'white',
+                color: 'black',
                 fontWeight: 'bold',
                 fontStyle: 'italic',
               }}
             />
           </h2>
-          <div className='flex  justify-center text-red-600 pt-6 max-w-[200px] w-full'>
-            <FaLinkedinIn className='cursor-pointer' size={30} />
-            <FaGithub className='cursor-pointer' size={30} />
+          <div className='flex justify-evenly pt-2 max-w-[200px] w-full p-2'>
+            <a href='https://www.linkedin.com/in/joe-reis-software-developer-b289802a2?trk=people-guest_people_search-card'>
+              <FaLinkedinIn className='cursor-pointer' size={30} />
+            </a>
+            <a href='https://github.com/search?q=joer0814&type=repositories'>
+              <FaGithub className='cursor-pointer' size={30} />
+            </a>
           </div>
         </div>
       </div>
