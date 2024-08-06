@@ -2,7 +2,7 @@ import React from 'react';
 import NavBar from './Components/NavBar';
 import Main from './Components/Main';
 import About from './Components/About';
-import Contact from './Components/Contact';
+// import Contact from './Components/Contact';
 import Projects from './Components/Projects';
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
       <Main />
       <About />
       <Projects />
-      <Contact />
+      {/* <Contact /> */}
     </div>
   );
 }
