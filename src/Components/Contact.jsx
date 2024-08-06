@@ -6,16 +6,18 @@ function Contact() {
       <h1 className='py-4 text-4xl font-bold text-center text-[#001b5e]'>
         Contact
       </h1>
-      <form action='' method='POST' encType='multipart/form-data'>
-        <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
-          <div className='flex flex-col'>
-            <label className='uppercase text-sm py-2'>name</label>
-            <input
-              className='border-2 rounded-lg p-3 flex border-gray-300'
-              type='text'
-              name='name'
-            />
-          </div>
+      <form
+        action='https://getform.io/f/awngrwkb'
+        method='POST'
+        encType='multipart/form-data'
+      >
+        <div className='flex flex-col'>
+          <label className='uppercase text-sm py-2'>name</label>
+          <input
+            className='border-2 rounded-lg p-3 flex border-gray-300'
+            type='text'
+            name='name'
+          />
         </div>
         <div className='flex flex-col py-2'>
           <label className='uppercase text-sm py-2'>Email</label>
@@ -41,7 +43,7 @@ function Contact() {
             name='message'
           ></textarea>
         </div>
-        <button className='bg-[#001b5e] w-full hover:bg-[#001b5e] p-4 text-gray-100 mt-4 rounded-lg'>
+        <button className='bg-[#001b5e] w-full p-4 text-gray-100 mt-4 rounded-lg'>
           Send Message
         </button>
       </form>
