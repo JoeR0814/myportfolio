@@ -12,11 +12,11 @@ function Main() {
         alt='utah'
       />
       <div className='w-full h-screen absolute top-0 left-0 bg-black/10'>
-        <div className='max-w-[700px] m-auto h-full w-full flex flex-col justify-center lg:items-start items-center text-black'>
+        <div className='max-w-[700px] m-auto h-full w-full flex flex-col justify-center lg:items-start items-center text-white'>
           <h1 className='sm:text-5xl md:text-7xl font-bold text-white-800 px-4 md:px-12'>
             I'm Joe Reis
           </h1>
-          <h2 className='flex sm:text-3xl text-2xl md:text-5xl font-bold text-black px-4 md:px-12'>
+          <h2 className='flex sm:text-3xl text-2xl md:text-5xl font-bold text-white px-4 md:px-12'>
             I'm A,
             <TypeAnimation
               sequence={[
