@@ -2,8 +2,9 @@ import React from 'react';
 import NavBar from './Components/NavBar';
 import Main from './Components/Main';
 import About from './Components/About';
-// import Contact from './Components/Contact';
+import Work from './Components/Work';
 import Projects from './Components/Projects';
+import Contact from './Components/Contact';
 
 function App() {
   return (
@@ -11,8 +12,9 @@ function App() {
       <NavBar />
       <Main />
       <About />
+      <Work />
       <Projects />
-      {/* <Contact /> */}
+      <Contact />
     </div>
   );
 }

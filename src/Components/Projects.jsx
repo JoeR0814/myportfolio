@@ -52,19 +52,19 @@ const Projects = () => {
       </p>
       <div id='projects' className='max-w-[1040px] m-auto md:pl-20 py-10'>
         <p className='pb-3'>
-          <b>Indianapolis Volenteer Project</b> | Capstone group project to
-          provide a way for locals in Indianapolis to sponsor a bus stop to look
-          after and clean it. Highlight skills: Git | React | Reactstrap |
-          Express| Postman | MySQL | JavaScript | CSS3 | HTML5 | Agile | CI/CD |
-          React-Leaflet
+          <b>Indianapolis Volenteer Project Web Application</b> | Capstone group
+          project to provide a way for locals in Indianapolis to sponsor a bus
+          stop to look after and clean it. Highlight skills: Git | React |
+          Reactstrap | Express| Postman | MySQL | JavaScript | CSS3 | HTML5 |
+          Agile | CI/CD | React-Leaflet
         </p>
         <p className='pb-3 pt-3'>
-          <b>A Contact Form App</b> | Developed a versatile Contact Form web
-          application that users can use to submit their contact information.
-          Git | Vite | Tailwind CSS | JavaScript | CI/CD
+          <b>A Contact Form Web Application</b> | Developed a versatile Contact
+          Form web application that users can use to submit their contact
+          information. Git | Vite | Tailwind CSS | JavaScript | CI/CD
         </p>
         <p className='pb-3 pt-3'>
-          <b>A Text Adventure Console Game</b> | Developed an engaging
+          <b>A Text Adventure Terminal Console Game</b> | Developed an engaging
           console-based text adventure game where players navigate through
           different rooms by answering questions correctly. Each room requires
           the player to enter specific words as answers to progress, creating an
@@ -72,25 +72,26 @@ const Projects = () => {
           | Git | Agile | CI/CD
         </p>
         <p className='pb-3 pt-3'>
-          <b>Guess The Number</b> | Console game where users can guess the
-          computers number or they can pick a number and the computer tries to
-          guess it. Highlight skills: JavaScript | Git | Agile | CI/CD
+          <b>Guess The Number Terminal Console Game</b> | Console game where
+          users can guess the computers number or they can pick a number and the
+          computer tries to guess it. Highlight skills: JavaScript | Git | Agile
+          | CI/CD
         </p>
         <p className='pb-3 pt-3'>
-          <b>Jeopardy Game</b> | Developed a Jeopardy board game web application
-          using HTML, CSS, and JavaScript. Implemented game logic, question
-          display, player score tracking, and user interaction features.
-          features. Highlight Skills: Javascript | CSS | HTML | Git | Agile |
-          CI/CD
+          <b>Jeopardy Game Application</b> | Developed a Jeopardy board game web
+          application using HTML, CSS, and JavaScript. Implemented game logic,
+          question display, player score tracking, and user interaction
+          features. features. Highlight Skills: Javascript | CSS | HTML | Git |
+          Agile | CI/CD
         </p>
         <p className='pb-3 pt-3'>
-          <b>A To Do List App</b> | Developed a comprehensive Home To-Do List
-          application where users can create and manage their own lists of
-          tasks. The app allows users to organize tasks in various categories
-          such as home, outside the home, garage, and grocery section. Users can
-          easily save, edit, and delete tasks as needed, ensuring efficient task
-          management and completion. Highlight skills: Git | Vite | Tailwind CSS
-          | JavaScript | CI/CD
+          <b>A To Do List Web Application</b> | Developed a comprehensive Home
+          To-Do List application where users can create and manage their own
+          lists of tasks. The app allows users to organize tasks in various
+          categories such as home, outside the home, garage, and grocery
+          section. Users can easily save, edit, and delete tasks as needed,
+          ensuring efficient task management and completion. Highlight skills:
+          Git | Vite | Tailwind CSS | JavaScript | CI/CD
         </p>
       </div>
       <div className='grid sm:grid-cols-2 gap-12 '>
