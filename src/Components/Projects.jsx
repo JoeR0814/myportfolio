@@ -11,32 +11,32 @@ const Projects = () => {
   const projects = [
     {
       img: Image1Img,
-      title: 'Live Bus Stop App In MERN Stack',
+      title: 'Live Bus Stop App',
       link: 'https://indianapolis-bus-stop-project.onrender.com/',
     },
     {
       img: Image2Img,
-      title: 'Form Pages App In Vite.js & Tailwindcss',
+      title: 'Form Pages App',
       link: 'https://github.com/JoeR0814/contactform',
     },
     {
       img: Image3Img,
-      title: 'Guess The Number Terminal Game App Node.js & Express.js',
+      title: 'Guess The Number Terminal ',
       link: 'https://github.com/uprighted-learners/guess-the-number-JoeR0814-1',
     },
     {
       img: Image4Img,
-      title: 'A Zorkington Text Adventure App Node.js & Express.js',
+      title: 'Text Adventure App',
       link: 'https://github.com/uprighted-learners/zorkington-JoeR0814-1',
     },
     {
       img: Image5Img,
-      title: 'Jeopardy Game App FrontEnd In HTML & CSS',
+      title: 'Jeopardy Game App',
       link: 'https://github.com/uprighted-learners/jeopardy-project-resubmission-for-joe-JoeR0814',
     },
     {
       img: Image6Img,
-      title: 'Personal To Do List App FrontEnd In Vite.js & tailwindcss',
+      title: 'To Do List App',
       link: 'https://github.com/uprighted-learners/personal-to-do-list-JoeR0814',
     },
   ];
