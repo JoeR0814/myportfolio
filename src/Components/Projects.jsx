@@ -164,7 +164,7 @@ const Projects = () => {
       </p>
       <div id='projects' className='max-w-[1040px] m-auto md:pl-20 py-10'>
         <p className='text-sm sm:text-base pb-3'>
-          <b>Indianapolis Volenteer Project Web Application</b> | Capstone group
+          <b>Indianapolis Volunteer Project Web Application</b> | Capstone group
           project to provide a way for locals in Indianapolis to sponsor a bus
           stop to look after and clean it. Highlight skills: Git | React |
           Reactstrap | Express| Postman | MySQL | JavaScript | CSS3 | HTML5 |
@@ -222,3 +222,4 @@ const Projects = () => {
 };
 
 export default Projects;
+
