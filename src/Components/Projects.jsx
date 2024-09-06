@@ -1,6 +1,6 @@
 import React from 'react';
 import ProjectItem from './ProjectItem';
-import Image1Img from '../assets/busStopProject.png';
+import Image1Img from '../assets/drawingApp.png';
 import Image2Img from '../assets/formPages.png';
 import Image3Img from '../assets/guessTheNumber.png';
 import Image4Img from '../assets/textAdventureGame.png';
@@ -14,7 +14,7 @@ const Projects = () => {
     {
       img: Image1Img,
       title: 'Live Bus Stop App',
-      link: 'https://indianapolis-bus-stop-project.onrender.com/',
+      link: 'https://github.com/JoeR0814/drawing-app-html-5',
     },
     {
       img: Image2Img,
