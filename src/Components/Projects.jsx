@@ -8,6 +8,7 @@ import Image5Img from '../assets/jeopardyGame.png';
 import Image6Img from '../assets/personalToDoList.png';
 import Image7Img from '../assets/registerForm.png';
 import Image8Img from '../assets/movieSeatChart.png';
+import Image9Img from '../assets/expanding-pic-cards.png';
 
 const Projects = () => {
   const projects = [
@@ -50,6 +51,11 @@ const Projects = () => {
       img: Image8Img,
       title: 'select-Movie-Seat-HTML, CSS, and .JS',
       link: 'https://github.com/JoeR0814/select-movie-seat',
+    },
+    {
+      img: Image9Img,
+      title: 'select-Movie-Seat-HTML, CSS, and .JS',
+      link: 'https://github.com/JoeR0814/expanding-image-cards-HTML',
     },
   ];
 
