@@ -14,47 +14,47 @@ const Projects = () => {
   const projects = [
     {
       img: Image1Img,
-      title: 'Live Bus Stop App',
+      title: 'Drawing Board',
       link: 'https://github.com/JoeR0814/drawing-app-html-5',
     },
     {
       img: Image2Img,
-      title: 'Form Pages App',
+      title: 'Forms App',
       link: 'https://github.com/JoeR0814/contactform',
     },
     {
       img: Image3Img,
-      title: 'Guess The Number Terminal ',
+      title: 'Guess Number',
       link: 'https://github.com/uprighted-learners/guess-the-number-JoeR0814-1',
     },
     {
       img: Image4Img,
-      title: 'Text Adventure App',
+      title: 'Text Game',
       link: 'https://github.com/uprighted-learners/zorkington-JoeR0814-1',
     },
     {
       img: Image5Img,
-      title: 'Jeopardy Game App',
+      title: 'Jeopardy',
       link: 'https://github.com/uprighted-learners/jeopardy-project-resubmission-for-joe-JoeR0814',
     },
     {
       img: Image6Img,
-      title: 'To Do List App',
+      title: 'Todo App',
       link: 'https://github.com/uprighted-learners/personal-to-do-list-JoeR0814',
     },
     {
       img: Image7Img,
-      title: 'Register Form-HTML,CSS,.JS',
+      title: 'Register-Form',
       link: 'https://github.com/JoeR0814/registerform-html',
     },
     {
       img: Image8Img,
-      title: 'select-Movie-Seat-HTML, CSS, and .JS',
+      title: 'Select-Seat',
       link: 'https://github.com/JoeR0814/select-movie-seat',
     },
     {
       img: Image9Img,
-      title: 'select-Movie-Seat-HTML, CSS, and .JS',
+      title: 'Image Cards',
       link: 'https://github.com/JoeR0814/expanding-image-cards-HTML',
     },
   ];
