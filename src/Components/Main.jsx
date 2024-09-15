@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from '../assets/utah.jpg';
+import Image from '../assets/timmyMe.jpg';
 import { TypeAnimation } from 'react-type-animation';
 import { FaLinkedinIn, FaGithub } from 'react-icons/fa';
 
