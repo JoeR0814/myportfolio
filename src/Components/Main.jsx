@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from '../assets/timmyMe.jpg';
+import Image from '../assets/pumpkinPatch.jpeg';
 import { TypeAnimation } from 'react-type-animation';
 import { FaLinkedinIn, FaGithub } from 'react-icons/fa';
 
@@ -7,11 +7,11 @@ function Main() {
   return (
     <div id='main'>
       <img
-        className='w-full h-screen object-cover object-left scale-x-[-1]'
+        className='w-full h-680 over-cover transition-transform duration-300 scale-150'
         src={Image}
-        alt='utah'
+        alt='myBoy&Me'
       />
-      <div className='w-full h-screen absolute top-0 left-0 bg-black/10'>
+      <div className='w-full h-screen absolute top-0 left-0'>
         <div className='max-w-[700px] m-auto h-full w-full flex flex-col justify-center lg:items-start items-center text-white'>
           <h1 className='sm:text-5xl md:text-7xl font-bold text-white px-4 md:px-12'>
             I'm Joe Reis
