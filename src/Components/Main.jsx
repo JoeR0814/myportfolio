@@ -7,7 +7,7 @@ function Main() {
   return (
     <div id='main'>
       <img
-        className='w-full h-680 over-cover transition-transform duration-300 scale-150'
+        className='w-full h-680 over-cover transition-transform duration-300 '
         src={Image}
         alt='myBoy&Me'
       />
