@@ -1,22 +1,22 @@
-import React from 'react';
-import NavBar from './Components/NavBar';
-import Main from './Components/Main';
-import About from './Components/About';
-import Work from './Components/Work';
-import Projects from './Components/Projects';
-import Contact from './Components/Contact';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import LandingPageNav from './Components/LandingPageNav';
+import LandingPage from './Page/LandingPage';
+import PortfolioPage from './Page/PortfolioPage';
+import ServicesPage from './Page/ServicesPage';
 
 function App() {
-  return (
-    <div>
-      <NavBar />
-      <Main />
-      <About />
-      <Work />
-      <Projects />
-      <Contact />
-    </div>
-  );
+	return (
+		<BrowserRouter>
+			<div>
+				<LandingPageNav />
+				<Routes>
+					<Route path='/' element={<LandingPage />} />
+					<Route path='/Page/PortfolioPage' element={<PortfolioPage />} />
+					<Route path='/Page/ServicesPage' element={<ServicesPage />} />
+				</Routes>
+			</div>
+		</BrowserRouter>
+	);
 }
 
 export default App;
