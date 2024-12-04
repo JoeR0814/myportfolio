@@ -1,12 +1,13 @@
 import MyLogo from '../assets/my-banner-logo.webp';
 import Img2 from '../assets/profilePic.jpg';
 import LandingPageNav from '../Components/LandingPageNav';
+import { Link } from 'react-router-dom';
 
 function LandingPage() {
 	return (
 		<>
 			<LandingPageNav />
-			<div className='flex flex-col md:flex-row justify-center items-center px-6 md:px-32 w-full bg-gradient-to-r from-gray-400 via-blue-300 to-gray-300 text-white pt-12 pb-12 border-4 border-gray-400'>
+			<div className='flex flex-col md:flex-row justify-center items-center px-6 md:px-32 w-full bg-gradient-to-r from-gray-400 via-blue-400 to-gray-300 text-white pt-12 pb-12 border-4 border-gray-400'>
 				<h1 className='text-center text-2xl md:text-4xl font-bold underline rounded-lg text-white shadow-lg py-4 px-6 border-4 border-gray-400 bg-gradient-to-r from-blue-300 via-blue-300 to-gray-400 pt-12 pb-12 '>
 					Welcome To
 				</h1>
