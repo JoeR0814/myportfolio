@@ -12,6 +12,7 @@ const LandingPageNav = () => {
 	const navLinks = [
 		{ path: '/', label: 'Home Page' },
 		{ path: '/Page/PortfolioPage', label: 'Portfolio' },
+		{ path: '/Page/ServicesPage', label: 'Services' },
 	];
 
 	return (
