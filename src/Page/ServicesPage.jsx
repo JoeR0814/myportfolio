@@ -31,7 +31,7 @@ const ServicesPage = () => {
 						fontStyle: 'italic',
 					}}
 				/>
-				<p className='font-bold text-2xl md:text-3xl text-center p-4 rounded-lg shadow-lg border-4 border-gray-300 bg-gradient-to-r from-gray-400 via-blue-300 to-blue-300 text-white pt-12 pb-12 '>
+				<p className='font-bold text-sm md:text-sm text-center p-4 rounded-lg shadow-lg border-4 border-gray-300 bg-gradient-to-r from-gray-400 via-blue-300 to-blue-300 text-white pt-12 pb-12 '>
 					Welcome! I am excited to offer a wide range of services to help your website meet your
 					needs. With a strong foundation in both frontend and backend development, I specialize in
 					creating user-friendly designs and secure, efficient functionality. Whether you need a
