@@ -67,7 +67,7 @@ const PortProjects = () => {
 				Projects Built with Full Stack HTML, CSS, JavaScript, and the MERN Stack Additional Projects
 				Using Vite.js & Tailwind CSS
 			</p>
-			<div id='projects' className='max-w-[1040px] m-auto md:pl-20 py-10'>
+			{/* <div id='projects' className='max-w-[1040px] m-auto md:pl-20 py-10'>
 				<p className='text-sm sm:text-base pb-3'>
 					<b>Indianapolis Volunteer Project Web Application</b> | Capstone group project to provide
 					a way for locals in Indianapolis to sponsor a bus stop to look after and clean it.
@@ -104,8 +104,8 @@ const PortProjects = () => {
 					grocery section. Users can easily save, edit, and delete tasks as needed, ensuring
 					efficient task management and completion. Highlight skills: Git | Vite | Tailwind CSS |
 					JavaScript | CI/CD
-				</p>
-			</div>
+				</p> */}
+
 			<div className='grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-12'>
 				{projects.map((project, index) => (
 					<PortProjectItem

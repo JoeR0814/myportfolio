@@ -2,11 +2,11 @@ import PortWorkItem from './PortWorkItem';
 
 const data = [
 	{
-		year: 2023 - 2024,
+		year: 2024,
 		title: 'Full Stack Software Web Development',
-		duration: '2 years (2022-2024)',
+		duration: '1 years (2023-2024)',
 		details:
-			'In October 2023, I made the pivotal decision to change careers and pursue my passion for software development. I enrolled in Goodwin University’s Full Stack Web Development program, where I gained comprehensive skills in front-end and back-end development. After completing the program and becoming a certified software developer in just six months, I have been dedicating my time to building my portfolio and working on personal projects to further develop my expertise and prepare for this exciting career transition.',
+			'In October 2023, I made the pivotal decision to change careers and pursue my passion for software development. I enrolled in Goodwin University’s in 2024 as a Full Stack Web Development program, where I gained comprehensive skills in front-end and back-end development. After completing the program and becoming a certified software developer in just six months, I have been dedicating my time to building my portfolio and working on personal projects to further develop my expertise and prepare for this exciting career transition.',
 	},
 	{
 		year: 2020,
